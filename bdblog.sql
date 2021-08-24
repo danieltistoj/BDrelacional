@@ -29,24 +29,56 @@ CREATE TABLE IF NOT EXISTS `articulo` (
 -- Volcando datos para la tabla bdblog.articulo: ~18 rows (aproximadamente)
 /*!40000 ALTER TABLE `articulo` DISABLE KEYS */;
 INSERT INTO `articulo` (`id`, `Titulo`, `Contenido`, `fechacreacion`, `Usuario_id`, `Categoria_id`) VALUES
-	(1, 'Artículo 1', 'Texto1', '2013-01-01', 1, 1),
-	(2, 'Artículo 2', 'Texto2', '2013-01-01', 1, 2),
-	(3, 'Artículo 3', 'Texto 3', '2013-01-05', 2, 1),
-	(4, 'Artículo 4', 'Texto 4', '2013-01-21', 2, 3),
-	(5, 'Artículo 5', 'Texto 5', '2013-01-29', 2, 4),
-	(6, 'Artículo 6', 'Texto 6', '2013-02-01', 1, 2),
-	(7, 'Artículo 7', 'Texto 7', '2013-02-15', 3, 5),
-	(8, 'Artículo 8', 'Texto 8', '2013-02-21', 6, 3),
-	(9, 'Artículo 9', 'Texto 9', '2013-02-21', 7, 5),
-	(10, 'ARtículo 10', 'Texto 10', '2013-03-02', 4, 1),
-	(11, 'Artículo 11', 'Texto 11', '2013-03-05', 5, 8),
-	(12, 'Artículo 12', 'Texto 12', '2013-03-18', 2, 4),
-	(13, 'Artículo 13', 'Texto 13', '2013-04-19', 1, 5),
-	(14, 'Artículo 14', 'Texto 14', '2013-08-01', 2, 1),
-	(15, 'Artículo 15', 'Texto 15', '2013-09-12', 3, 3),
-	(16, 'Artículo 16', 'Texto 16', '2014-01-01', 2, 1),
-	(17, 'Artículo 17', 'Texto 17', '2014-01-05', 5, 2),
-	(18, 'ARtículo ', 'Texto 18', '2014-02-01', 2, 3);
+	(1, 'Articulo 1', 'Texto1', '2013-01-01', 1, 1),
+	(2, 'Articulo 2', 'Texto2', '2013-01-01', 1, 2),
+	(3, 'Articulo 3', 'Texto 3', '2013-01-05', 2, 1),
+	(4, 'Articulo 4', 'Texto 4', '2013-01-21', 2, 3),
+	(5, 'Articulo 5', 'Texto 5', '2013-01-29', 2, 4),
+	(6, 'Articulo 6', 'Texto 6', '2013-02-01', 1, 2),
+	(7, 'Articulo 7', 'Texto 7', '2013-02-15', 3, 5),
+	(8, 'Articulo 8', 'Texto 8', '2013-02-21', 6, 3),
+	(9, 'Articulo 9', 'Texto 9', '2013-02-21', 7, 5),
+	(10, 'Articulo 10', 'Texto 10', '2013-03-02', 4, 1),
+	(11, 'Articulo 11', 'Texto 11', '2013-03-05', 5, 8),
+	(12, 'Articulo 12', 'Texto 12', '2013-03-18', 2, 4),
+	(13, 'Articulo 13', 'Texto 13', '2013-04-19', 1, 5),
+	(14, 'Articulo 14', 'Texto 14', '2013-08-01', 2, 1),
+	(15, 'Articulo 15', 'Texto 15', '2013-09-12', 3, 3),
+	(16, 'Articulo 16', 'Texto 16', '2014-01-01', 2, 1),
+	(17, 'Articulo 17', 'Texto 17', '2014-01-05', 5, 2),
+	(18, 'ARticulo 18', 'Texto 18', '2014-02-01', 2, 3);
+  (19, 'ARticulo 19', 'Texto 18', '2014-02-01', 2, 3);
+  (20, 'ARticulo 20', 'Texto 18', '2014-02-01', 2, 3);
+  (21, 'ARticulo 21', 'Texto 18', '2014-02-01', 2, 3);
+  (22, 'ARticulo 22', 'Texto 18', '2014-02-01', 2, 3);
+  (23, 'ARticulo 23', 'Texto 18', '2014-02-01', 2, 3);
+  (24, 'ARticulo 24', 'Texto 18', '2014-02-01', 2, 3);
+  (25, 'ARticulo 25', 'Texto 18', '2014-02-01', 2, 3);
+  (26, 'ARticulo 26', 'Texto 18', '2014-02-01', 2, 3);
+  (27, 'ARticulo 27', 'Texto 18', '2014-02-01', 2, 3);
+  (28, 'ARticulo 28', 'Texto 18', '2014-02-01', 2, 3);
+  (29, 'ARticulo 29', 'Texto 18', '2014-02-01', 2, 3);
+  (30, 'ARticulo 30', 'Texto 18', '2014-02-01', 2, 3);
+  (31, 'ARticulo 31', 'Texto 18', '2014-02-01', 2, 3);
+  (32, 'ARticulo 32', 'Texto 18', '2014-02-01', 2, 3);
+  (33, 'ARticulo 33', 'Texto 18', '2014-02-01', 2, 3);
+  (34, 'ARticulo 34', 'Texto 18', '2014-02-01', 2, 3);
+  (35, 'ARticulo 35', 'Texto 18', '2014-02-01', 2, 3);
+  (36, 'ARticulo 36', 'Texto 18', '2014-02-01', 2, 3);
+  (37, 'ARticulo 37', 'Texto 18', '2014-02-01', 2, 3);
+  (38, 'ARticulo 38', 'Texto 18', '2014-02-01', 2, 3);
+  (39, 'ARticulo 39', 'Texto 18', '2014-02-01', 2, 3);
+  (40, 'ARticulo 40', 'Texto 18', '2014-02-01', 2, 3);
+  (41, 'ARticulo 41', 'Texto 18', '2014-02-01', 2, 3);
+  (42, 'ARticulo 42', 'Texto 18', '2014-02-01', 2, 3);
+  (43, 'ARticulo 43', 'Texto 18', '2014-02-01', 2, 3);
+  (44, 'ARticulo 44', 'Texto 18', '2014-02-01', 2, 3);
+  (45, 'ARticulo 45', 'Texto 18', '2014-02-01', 2, 3);
+  (46, 'ARticulo 46', 'Texto 18', '2014-02-01', 2, 3);
+  (47, 'ARticulo 47', 'Texto 18', '2014-02-01', 2, 3);
+  (48, 'ARticulo 48', 'Texto 18', '2014-02-01', 2, 3);
+  (49, 'ARticulo 49', 'Texto 18', '2014-02-01', 2, 3);
+  (50, 'ARticulo 50', 'Texto 18', '2014-02-01', 2, 3);
 /*!40000 ALTER TABLE `articulo` ENABLE KEYS */;
 
 -- Volcando estructura para tabla bdblog.categoria
